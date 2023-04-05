@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+React Contador de Clics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un contador de clics desarrollado con React, una biblioteca de JavaScript para construir interfaces de usuario.
 
-## Available Scripts
+Tecnologías utilizadas.
+React: biblioteca de JavaScript para construir interfaces de usuario.
+CSS: lenguaje de diseño utilizado para dar estilo a las páginas web.
+Funcionalidades
+El contador de clics tiene dos botones: uno para aumentar el número de clics y otro para reiniciar el contador a cero. Cada vez que se hace clic en el botón de "clic", el contador aumenta en uno. El número de clics se muestra en tiempo real en la pantalla.
 
-In the project directory, you can run:
+Estructura del proyecto.
+El proyecto se compone de dos componentes principales:
 
-### `npm start`
+Boton: componente que muestra un botón y maneja el evento de clic.
+Contador: componente que muestra el número de clics.
+Los estilos de cada componente se definen en archivos CSS separados con un estilo retro.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Instalación.
+Para instalar el proyecto, sigue estos pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clona el repositorio en tu máquina local.
+Abre una terminal y navega hasta la carpeta del proyecto.
+Ejecuta el comando npm install para instalar las dependencias.
+Ejecuta el comando npm start para iniciar el proyecto en modo de desarrollo.
+¡Eso es todo! Ahora puedes usar el contador de clics en tu navegador.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Captura](https://user-images.githubusercontent.com/125910370/230081129-41775ccf-1500-4c18-a35b-ef8b19882078.PNG)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
